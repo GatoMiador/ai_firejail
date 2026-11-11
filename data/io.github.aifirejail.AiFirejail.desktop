@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=AI_FIREJAIL
+GenericName=Sandbox para IA
+Comment=Executa algoritmos de IA em sandbox com o firejail
+Exec=ai-firejail
+Icon=io.github.aifirejail.AiFirejail
+Terminal=false
+Categories=Utility;System;Security;
+Keywords=firejail;sandbox;ia;ai;seguranca;security;
+StartupNotify=true

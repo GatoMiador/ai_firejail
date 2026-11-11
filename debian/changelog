@@ -1,0 +1,9 @@
+ai-firejail (0.1.0) noble; urgency=medium
+
+  * Versão inicial: GUI GTK4 para o firejail voltada a algoritmos de IA.
+    - Painel de diretórios permitidos com adicionar/remover/prioridade.
+    - Lista editável de comandos de IA com opção de rodar no terminal.
+    - Perfis gravados como arquivos .profile do firejail.
+    - Configurações em SQLite seguindo as diretrizes XDG/GNOME.
+
+ -- AI_FIREJAIL Maintainers <noreply@example.com>  Tue, 11 Nov 2026 12:00:00 +0000

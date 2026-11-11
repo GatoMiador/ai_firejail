@@ -1,0 +1,28 @@
+Source: ai-firejail
+Section: utils
+Priority: optional
+Maintainer: AI_FIREJAIL Maintainers <noreply@example.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 4.6.2
+Homepage: https://github.com/aifirejail/ai_firejail
+Rules-Requires-Root: no
+
+Package: ai-firejail
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         firejail,
+         python3-gi,
+         gir1.2-gtk-4.0,
+         gir1.2-adw-1
+Description: GUI GTK4 para o firejail voltada a algoritmos de IA
+ AI_FIREJAIL é um wrapper GTK4/libadwaita para o firejail. Permite escolher
+ quais diretórios ficam visíveis dentro do sandbox, ordená-los por prioridade
+ e executar comandos de IA (no terminal ou não) a partir de perfis
+ reutilizáveis gravados como arquivos .profile do firejail.
+ .
+ As configurações ficam em um banco SQLite em ~/.config/ai_firejail e os
+ perfis são gravados como texto puro no mesmo diretório.

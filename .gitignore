@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Debian build artifacts
+debian/ai-firejail/
+debian/.debhelper/
+debian/files
+debian/*.substvars
+debian/*.debhelper.log
+.pybuild/
+../ai-firejail_*.deb

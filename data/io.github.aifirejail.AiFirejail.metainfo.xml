@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.aifirejail.AiFirejail</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>AI_FIREJAIL</name>
+  <summary>Executa algoritmos de IA em sandbox com o firejail</summary>
+  <description>
+    <p>
+      AI_FIREJAIL é uma interface GTK4/libadwaita para o firejail. Permite
+      definir os diretórios visíveis dentro do sandbox, organizá-los por
+      prioridade e executar comandos de IA — no terminal ou não — a partir de
+      perfis reutilizáveis gravados como arquivos .profile do firejail.
+    </p>
+  </description>
+  <launchable type="desktop-id">io.github.aifirejail.AiFirejail.desktop</launchable>
+  <categories>
+    <category>Utility</category>
+    <category>Security</category>
+  </categories>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-11-11"/>
+  </releases>
+</component>
